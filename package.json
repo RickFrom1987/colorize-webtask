@@ -1,0 +1,27 @@
+{
+  "name": "colorize",
+  "version": "1.0.0",
+  "description": "colorizeme",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "assert": "1.4.1",
+    "gulp": "3.9.1",
+    "gulp-mocha": "4.3.0",
+    "supertest": "3.0.0",
+    "wt-cli": "6.0.0"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "update": "wt update colorize colorize.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "RickFrom1987",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
