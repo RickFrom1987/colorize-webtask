@@ -3,6 +3,7 @@
 A Simple Auth0 webtask service that takes a string and returns a HEX value representing your name!
 
 ```
+
 https://{your-webtask-url}/colorize?name=Rickfrom1987
 
 result = {
@@ -13,14 +14,16 @@ result = {
   "hex": "A96FB0",
   "hex_hash": "#A96FB0"
 }
+
 ```
 
-##e2e Tests
+#e2e Tests
+
 Setup dummy e2e to test endpoints when ready.
 
 `npm run test`
 
-##Update webtask
+#Update webtask
 
 you can run:
 
@@ -28,8 +31,7 @@ you can run:
 
 or you can use wt edit {taskname} or open up editor in browser
 
-
-##TODO/Improvements:
+#TODO/Improvements:
 
 - build/deploy scripts for webtask.qa.js and webtask.prod.js
 - better e2e testing with
