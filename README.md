@@ -34,6 +34,7 @@ or you can use wt edit {taskname} or open up editor in browser
 #TODO/Improvements:
 
 - build/deploy scripts for webtask.qa.js and webtask.prod.js
-- better e2e testing with
 - play around with Authorization
 - add better more robust e2e testing
+- webtask support for es6?
+- hookup lint/watch
